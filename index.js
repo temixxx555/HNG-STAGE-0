@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) => {
   res.json({
     email: "temiq3@gmail.com",
-    timestamp: new Date().toISOString(),
-    github_url: "https://github.com/temixxx555/HNG-STAGE-0",
+    current_datetime: new Date().toISOString(),
+    github_url: "<https://github.com/temixxx555/HNG-STAGE-0>",
   });
 });
 
